@@ -6,6 +6,12 @@ const helpObj = {
     ["'outer'",
       "Return to the outer layer."
     ],
+    ["'inner'",
+      "Return to the inner layer."
+    ],
+    ["'letter'",
+      "Display the letters that are about to be sent out soon."
+    ],    
     ["'banner'",
       "Display the banner again."
     ],
@@ -32,7 +38,7 @@ const createHelp = () : string[] => {
   })
 
   help.push("<br>");
-  help.push("All the commands that you've gathered from the outer layer can still work here");
+  help.push("All the commands that you've gathered from the outer layers can still work here.");
   help.push("<br>");
   help.push("Press <span class='keys'>[Tab]</span> for auto completion.");
   help.push("Press <span class='keys'>[Esc]</span> to clear the input line.");

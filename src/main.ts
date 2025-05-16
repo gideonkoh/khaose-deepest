@@ -136,29 +136,27 @@ function commandHandler(input : string) {
   switch(input) {
     // Commands from the album lyrics here:
     case 'blog':
+      writeLines(["I miss the era of “blogs”."]);
+      writeLines(["Different people can customize their own designs, share their deepest thoughts,"]);
+      writeLines(["add chat boxes to happily chat with their friends and communities."]);
       writeLines(["There is no such thing as “blogs” now. The Internet is only for the rich and victorious."]);
+      writeLines(["There are no “blogs” now."]);
+      writeLines(["Those who shared their deepest thoughts may be killed if “they” disagree with your thoughts."]);
+      writeLines(["<br>"]);
       writeLines(["Do you mean 'letter' instead?", "<br>"]);
     break;
 
     case 'letter':
-      writeLines(["The letters are here:"]);
-      writeLines(["1/10:"]);
-      writeLines(["2/10:"]);
-      writeLines(["3/10:"]);
-      writeLines(["4/10:"]);
-      writeLines(["5/10:"]);
-      writeLines(["6/10:"]);
-      writeLines(["7/10:", "<br>"]);
-      writeLines(["Embrace the letters and know yourself.", "<br>"]);
+      writeLines(["Type in ‘letterfromthefuture’ instead to display all the letters.", "<br>"]);
     break;
 
     case 'dictionary':
-      writeLines(["... it's a little too soon for this.", "<br>"]);
+      writeLines(["You may need this as an additional help!"]);
+      writeLines(["URLhere", "<br>"]);
     break;
 
     case 'purge':
-      writeLines(["I feel dirty and lousy, and it has been holding me back from life."]);
-      writeLines(["So many things within me that I wish to purge, so I can be who I am meant to be..", "<br>"]);
+      writeLines(["I’m about to be purged by The Final Answer anyway. It’s a wish that will come true.", "<br>"]);
     break;
 
     case 'khaose':
@@ -166,98 +164,103 @@ function commandHandler(input : string) {
     break;
 
     case 'khaosé':
-      writeLines(["Ah, yes, the “nickname” that people close to me assigned to me since I was a baby."]);
-      writeLines(["For quite a period of time, it made me feel like I’m an outsider to them.", "<br>"]);
+      writeLines(["Ah, Khaosé."]);
+      writeLines(["I once asked those who called me that what it meant, and they didn't even know the origin of the word."]);
+      writeLines(["I was called that simply because I’m different. This, however, made me feel that I never belong to their circle."]);
+      writeLines(["When I think about it more, this feeling of “not fitting in” followed me throughout all the different circles,"]);
+      writeLines(["and it has been a cycle that I want to break."]);
+      writeLines(["Believing that I do not fit in anywhere has made me really weak.", "<br>"]);
     break;
 
     case 'judgment day':
-      writeLines(["The end of the world. It is here.", "<br>"]);
+      writeLines(["The end of the world, at this very hour. I am ready.", "<br>"]);
     break;
 
     case 'king':
-      writeLines(["I used to love him with all of my being."]);
-      writeLines(["However, at some point, I start to wonder if he is ever coming back.", "<br>"]);
+      writeLines(["Come back and save us, my king.. Please. The world that you love is burning to the ground.", "<br>"]);
     break;
 
     case 'relational':
-      writeLines(["I wish I knew more people I can walk life with.. I wish some of them were still around.", "<br>"]);
+      writeLines(["If the entire mission is successful, I wish my past self will learn to be around people without fear more;"]);
+      writeLines(["even if there is a risk of being hurt, frustrated, or disappointed.", "<br>"]);
     break;
 
     case 'religion':
-      writeLines(["I am still a believer of the Kingdom. I know the King is always watching, even if I don’t feel like it.", "<br>"]);
+      writeLines(["Death is close, but I am still a believer of the Kingdom. I know the King will watch me die.", "<br>"]);
     break;
 
     case 'evil entity':
-      writeLines(["It exists, and it wants our lives.", "<br>"]);
+      writeLines(["It exists, and it will kill me today.", "<br>"]);
     break;
 
     case 'friends':
-      writeLines(["I have friends, but we’re all at the gates of hell. I wish we were all friends 36 years earlier.", "<br>"]);
+      writeLines(["Most of my friends are now dead. But I’ll see you soon, and we’ll celebrate this together. I know this.", "<br>"]);
     break;
 
     case 'secret whisperer':
-      writeLines(["I blame it for convincing me to go ahead with the mission."]);
-      writeLines(["I can’t betray the voice even if I want to.", "<br>"]);
+      writeLines(["Well, thank you, for getting me to fight this until the end. You're Sophia of the King, right?", "<br>"]);
     break;
 
     case 'mask':
-      writeLines(["If only I learn to accept my mask early on.", "<br>"]);
+      writeLines(["Please, get a mask and do your thing, Khaosé. ", "<br>"]);
     break;
 
     case 'sophia':
-      writeLines(["I will never know if it is real, but it has brought me up to this point, so it has to be real. Right?", "<br>"]);
+      writeLines(["Sophia has to be real. No one else can convince my internal self to do crazy things like this.", "<br>"]);
     break;
 
     case 'prophet':
-      writeLines(["I could have been one..", "<br>"]);
+      writeLines(["Please, agree to be one.. Your soul is calling you to be one and you know it. ", "<br>"]);
     break;
 
     case 'pillars':
-      writeLines(["I will always stick to my pillars, as it has never failed me.", "<br>"]);
+      writeLines(["My pillars are my foundation. Without it, I won’t be me.", "<br>"]);
     break;
 
     case 'enemy':
-      writeLines(["The enemy has taken over the world.", "<br>"]);
+      writeLines(["Khronos, the murderer of the world.", "<br>"]);
     break;
 
     case 'love':
-      writeLines(["If only.. I learned to love more.. Perhaps, the world would be a better place.", "<br>"]);
+      writeLines(["Learn how to love.. And learn to spread love.."]);
+      writeLines(["The past world will see it as cringe, but it is probably the only solution.", "<br>"]);
     break;
 
     case 'faith':
-      writeLines(["I still believe…", "<br>"]);
+      writeLines(["Even if I don’t feel it, I will believe.", "<br>"]);
     break;
 
     case 'joy':
-      writeLines(["In this sad and tortured state of the world, I wish I knew how to have joy. It may be the only thing that could have kept me going.", "<br>"]);
+      writeLines(["Is this feeling… joy?", "<br>"]);
     break;
 
     case 'purpose':
-      writeLines(["Is this mission.. my purpose? The very reason I was born?", "<br>"]);
+      writeLines(["I have found my purpose, but it may have been too late..", "<br>"]);
     break;
 
     case 'world':
-      writeLines(["The world is dying… Was there anything that I could have done?", "<br>"]);
+      writeLines(["Please, save this world, somebody…", "<br>"]);
     break;
 
     case 'hope':
-      writeLines(["Somebody, please give me hope..", "<br>"]);
+      writeLines(["A hope was placed upon me, and it is you. You’re an answered prayer.", "<br>"]);
     break;
 
     case 'father':
-      writeLines(["I wish I can talk to you face to face..", "<br>"]);
+      writeLines(["I wish you’re here with me at this very moment, Father.", "<br>"]);
     break;
 
     case 'romancers':
-      writeLines(["Dear wife, please, never ever leave me.", "<br>"]);
+      writeLines(["Dear wife, I miss you. I will never let you feel the pain of dying before your time.", "<br>"]);
     break;
 
     case 'fight':
-      writeLines(["I wish I could step up and bring the fight to the enemy.", "<br>"]);
+      writeLines(["This is my final fight against you, freaks!", "<br>"]);
     break;
 
     case 'sin':
-      writeLines(["Can somebody pull me out of this darkness..???", "<br>"]);
+      writeLines(["If only, I embrace the existence of the darkness within me,"]);
+      writeLines(["knowing that I can never beat it on my own.. instead of letting it drag me down..", "<br>"]);
     break;
 
     case 'vices':
@@ -265,65 +268,61 @@ function commandHandler(input : string) {
     break;
 
     case 'tongues':
-      writeLines(["Wait.. it can be used to send hidden messages to people, no?", "<br>"]);
+      writeLines(["WEven writings that have been dead will come back to life. You’ll see.", "<br>"]);
     break;
 
     case 'god':
-      writeLines(["I know you’re out there, watching over us. God.", "<br>"]);
+      writeLines(["God… may you never leave us. I believe you’re here.", "<br>"]);
     break;
 
     case 'countdown':
-      writeLines(["10 days to go before the end arrives.", "<br>"]);
+      writeLines(["5 minutes to go… before…", "<br>"]);
     break;
 
     case 'festive season':
-      writeLines(["Learn to celebrate, even if it may be too late.", "<br>"]);
+      writeLines(["Learn to celebrate, even at death’s door.", "<br>"]);
     break;
 
     case 'consciousness':
-      writeLines(["...", "<br>"]);
+      writeLines(["Is this.. my consciousness?", "<br>"]);
     break;
 
     case 'easter eggs':
-      writeLines(["Easter eggs - it signifies resurrection. Would these easter eggs bring forth true resurrection?", "<br>"]);
+      writeLines(["May easter eggs save your world.", "<br>"]);
     break;
 
     case 'sleep':
-      writeLines(["Sleep is a luxury..", "<br>"]);
+      writeLines(["Finally, I can sleep forever.", "<br>"]);
     break;
 
     case 'relief':
-      writeLines(["Truly.. There’s no relief.", "<br>"]);
+      writeLines(["Relief is coming for all of us. ", "<br>"]);
     break;
 
     case 'extermination':
-      writeLines(["My friends.. Have been exterminated everywhere..", "<br>"]);
+      writeLines(["The extermination point is in 5 minutes, but I’m quicker this time.. Bring forth the change.", "<br>"]);
     break;
 
     case 'kingdom':
-      writeLines(["Long live the Kingdom!", "<br>"]);
+      writeLines(["I’ll reclaim the keys to our beloved kingdom! Believe it!", "<br>"]);
     break;
 
     case 'acrostic':
-      writeLines(["... have you figured it out yet?", "<br>"]);
+      writeLines(["Acrostic poems are like masks. I am fueled by it.", "<br>"]);
     break;
 
     case 'commandments':
-      writeLines(["His commandments are in my heart, always..", "<br>"]);
+      writeLines(["His commandments are in my heart, forever.", "<br>"]);
     break;
 
     case 'name':
-      writeLines(["What if a name tears you down, how would it be a calling?", "<br>"]);
-    break;
-
-    case 'inner':
-      writeLines(["Sometimes, it feels like my inner soul has been stormy since I was born..", "<br>"]);
+      writeLines(["My name is Gxxxxx, but I’ll reclaim that other name and make it my calling as well.", "<br>"]);
     break;
 
     // game-related words only:
 
     case 'inner layer':
-      writeLines(["You’re already here at the inner layer. You can go deeper, but you have to find your own way there.", "<br>"]);
+      writeLines(["There’s nothing else deeper than the deepest layer here. All that’s left is to end this.", "<br>"]);
     break;
 
     case 'hguonedoogrevenimayhw':
@@ -331,48 +330,65 @@ function commandHandler(input : string) {
     break;
 
     case 'letterfromthefuture':
-      writeLines(["Form a command with these elements without spaces:", "<br>"]);
-      writeLines(["1: 17xN(orange)"]);
-      writeLines(["1: 21xZ(red)"]);
-      writeLines(["1: 28xH(blue)"]);
-      writeLines(["1: 30xW(blue)"]);
-      writeLines(["2: 14xS(purple)"]);
-      writeLines(["2: 21xF(green)"]);
-      writeLines(["2: 29xE(purple)"]);
-      writeLines(["2: 30xB(red)"]);
-      writeLines(["3: 1xH(purple)"]);
-      writeLines(["3: 1xL(orange)"]);
-      writeLines(["3: 23xB(green)"]);
-      writeLines(["4: 16xB(red)"]);
-      writeLines(["4: 22xM(red)"]);
-      writeLines(["4: 34xL(blue)"]);
-      writeLines(["5: 6xF(blue)"]);
-      writeLines(["5: 25xP(orange)"]);
-      writeLines(["6: 22xX(red)"]);
-      writeLines(["7: 31xT(purple)", "<br>"]);
+
+      writeLines(["The letters are here:"]);
+      writeLines(["1/10:"]);
+      writeLines(["2/10:"]);
+      writeLines(["3/10:"]);
+      writeLines(["4/10:"]);
+      writeLines(["5/10:"]);
+      writeLines(["6/10:"]);
+      writeLines(["7/10:"]);
+      writeLines(["*NEW* 8/10:"]);
+      writeLines(["*NEW* 9/10:"]);
+      writeLines(["*NEW* 10/10:"]);
+      writeLines(["<br>"]);
+      writeLines(["Prophet, this is your final challenge."]);
+      writeLines(["Two keys are required to unlock the last page, and here are the hints for it:"]);
+      writeLines(["<br>"]);
+      writeLines(["1. Obtain a command with the hint below to open up the final link:"]);
+      writeLines(["<br>"]);
+      writeLines(["Letter 9: Red orange orange blue yellow brown red green orange blue"]);
+      writeLines(["(no spaces)"]);
+      writeLines(["<br>"]);
+      writeLines(["2. You'll also need a password to access the final link."]);
+      writeLines(["Obtain an additional password hint with this hint:"]);
+      writeLines(["<br>"]);
+      writeLines(["Letter 8: Red characters"]);
+      writeLines(["(no spaces)"]);
+      writeLines(["<br>"]);
+      writeLines(["Embrace the letters that you find. I believe in you."]);
+      writeLines(["<br>"]);
+      writeLines(["P/S - All the best - doing so without a dictionary may actually be challenging.."]);
+      writeLines(["<br>"]);
     break;
 
     case 'nobodywillacceptme':
-      writeLines(["You’re almost there."]);
-      writeLines(["However, this system requires this to be cipher for security reasons,"]);
-      writeLines(["and it prefers if it is converted to a *cipher of an emperor*, and the emperor loves *his birth month*.", "<br>"]);
+      writeLines(["Come on. You’re beyond this already.", "<br>"]);
     break;
 
     case 'uvivkfdpsshjjlwatl':
-      writeLines(["Success. Diving deeper into the deepest layer.."]);
-      writeLines(["Opening up https://deepestbackend-lfghrwvi.com"]);
-      writeLines(["(Remember to save the link for easier access in the future)", "<br>"]);
-      setTimeout(() => {
-       window.open("https://deepestbackend-lfghrwvi.com", '_blank');
-      }, 500);
+      writeLines(["Fvb’yl ilfvuk aopz hsylhkf.", "<br>"]);
     break;
 
     case 'zxxvkgzmxv':
-      writeLines(["You’re not ready for this one yet.", "<br>"]);
+      writeLines(["Leaving the terminal now. You'll need a password though."]);
+      writeLines(["Opening up https://khaose.com/zxxvkgzmxv"]);
+      writeLines(["(Remember to save the link for easier access in the future)", "<br>"]);
+      setTimeout(() => {
+       window.open("https://khaose.com/zxxvkgzmxv", '_blank');
+      }, 500);
     break;
 
     case 'iwillacceptwhoiam':
-      writeLines(["Ah, you're really ahead of the game. But, you’re not ready for this one yet.", "<br>"]);
+      writeLines(["Like the emperor of the past, the system prefers if this is converted to a cipher:"]);
+      writeLines(["<br>"]);
+      writeLines(["The emperor loved ciphers. I do too."]);  
+      writeLines(["As you now know, the emperor was born in July. Me too."]);  
+      writeLines(["The emperor was born on the 12th. Not me though."]);  
+      writeLines(["My date is reversed."]);  
+      writeLines(["<br>"]);
+      writeLines(["The answer to this is the password for https://khaose.com/zxxvkgzmxv", "<br>"]);
     break;
 
 
@@ -404,6 +420,13 @@ function commandHandler(input : string) {
        window.open("https://backend.khaose.com/", '_blank');
       }, 500);
       break;
+
+    case 'inner':
+      writeLines(["Perhaps, finally, my inner soul can be at peace really soon.", "<br>"]);
+      setTimeout(() => {
+       window.open("innerbackend-rmhvxfirgb.com", '_blank');
+      }, 500);
+    break;
     case 'photos':
       writeLines(["Opening up khaose.com/photos... although I don't get why you want to view such awkward photos..", "<br>"]);
       setTimeout(() => {
