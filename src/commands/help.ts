@@ -10,7 +10,7 @@ const helpObj = {
       "Return to the inner layer."
     ],
     ["'letter'",
-      "Display the letters that are about to be sent out soon."
+      "Display all the letters that are about to be sent out real soon."
     ],    
     ["'banner'",
       "Display the banner again."
