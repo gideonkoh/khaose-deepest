@@ -332,16 +332,16 @@ function commandHandler(input : string) {
     case 'letterfromthefuture':
 
       writeLines(["The letters are here:"]);
-      writeLines(["1/10:"]);
-      writeLines(["2/10:"]);
-      writeLines(["3/10:"]);
-      writeLines(["4/10:"]);
-      writeLines(["5/10:"]);
-      writeLines(["6/10:"]);
-      writeLines(["7/10:"]);
-      writeLines(["*NEW* 8/10:"]);
-      writeLines(["*NEW* 9/10:"]);
-      writeLines(["*NEW* 10/10:"]);
+      writeLines(["1/10: <a href='https://postimg.cc/qtGTzqFq'>https://postimg.cc/qtGTzqFq</a>"]);
+      writeLines(["2/10: <a href='https://postimg.cc/7Gsrncwy'>https://postimg.cc/7Gsrncwy</a>"]);
+      writeLines(["3/10: <a href='https://postimg.cc/R6Vzf9rR'>https://postimg.cc/R6Vzf9rR</a>"]);
+      writeLines(["4/10: <a href='https://postimg.cc/fSVn2KRS'>https://postimg.cc/fSVn2KRS</a>"]);
+      writeLines(["5/10: <a href='https://postimg.cc/Dm0Tw2Pf'>https://postimg.cc/Dm0Tw2Pf</a>"]);
+      writeLines(["6/10: <a href='https://postimg.cc/hhYqJH2L'>https://postimg.cc/hhYqJH2L</a>"]);
+      writeLines(["7/10: <a href='https://postimg.cc/gn6b3N7f'>https://postimg.cc/gn6b3N7f</a>"]);
+      writeLines(["*NEW* 8/10: <a href='https://postimg.cc/RJLfYcp9'>https://postimg.cc/RJLfYcp9</a>"]);
+      writeLines(["*NEW* 9/10: <a href='https://postimg.cc/HVTbyhjL'>https://postimg.cc/HVTbyhjL</a>"]);
+      writeLines(["*NEW* 10/10: <a href='https://postimg.cc/ThVrh6dS'>https://postimg.cc/ThVrh6dS</a>"]);
       writeLines(["<br>"]);
       writeLines(["Prophet, this is your final challenge."]);
       writeLines(["Two keys are required to unlock the last page, and here are the hints for it:"]);
