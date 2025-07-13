@@ -152,7 +152,10 @@ function commandHandler(input : string) {
 
     case 'dictionary':
       writeLines(["You may need this as an additional help!"]);
-      writeLines(["URLhere", "<br>"]);
+      writeLines(["Opening up https://postimg.cc/HjnLp6hL/9c92769d"]);
+      writeLines(["(Remember to save the link for easier access in the future)", "<br>"]);
+      setTimeout(() => {
+       window.open("https://postimg.cc/HjnLp6hL/9c92769d", '_blank');
     break;
 
     case 'purge':
@@ -424,7 +427,7 @@ function commandHandler(input : string) {
     case 'inner':
       writeLines(["Perhaps, finally, my inner soul can be at peace really soon.", "<br>"]);
       setTimeout(() => {
-       window.open("innerbackend-rmhvxfirgb.com", '_blank');
+       window.open("https://innerbackend-rmhvxfirgb.com", '_blank');
       }, 500);
     break;
     case 'photos':
