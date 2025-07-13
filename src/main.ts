@@ -156,6 +156,7 @@ function commandHandler(input : string) {
       writeLines(["(Remember to save the link for easier access in the future)", "<br>"]);
       setTimeout(() => {
        window.open("https://postimg.cc/HjnLp6hL/9c92769d", '_blank');
+      }, 500);
     break;
 
     case 'purge':
