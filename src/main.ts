@@ -152,10 +152,10 @@ function commandHandler(input : string) {
 
     case 'dictionary':
       writeLines(["You may need this as an additional help!"]);
-      writeLines(["Opening up https://postimg.cc/HjnLp6hL/9c92769d"]);
+      writeLines(["Opening up https://postimg.cc/HjnLp6hL"]);
       writeLines(["(Remember to save the link for easier access in the future)", "<br>"]);
       setTimeout(() => {
-       window.open("https://postimg.cc/HjnLp6hL/9c92769d", '_blank');
+       window.open("https://postimg.cc/HjnLp6hL", '_blank');
       }, 500);
     break;
 
